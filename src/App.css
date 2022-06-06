@@ -1,5 +1,18 @@
 .App {
-  text-align: center;
+  width : 60%;
+  display : flex;
+  justify-content : space-around;
+}
+
+.App > div{
+  width : 45%;
+  text-align : center;
+}
+
+.App > div:first-child>button.Details {
+     display : block;
+     margin : auto;
+     margin-top : 20px;
 }
 
 .App-logo {
